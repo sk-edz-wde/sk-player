@@ -15,6 +15,11 @@ jobs:
               distribution: 'temurin'
               java-version: '17'
 
+        - name: Create dummy .env file
+          run: |
+              touch .env
+              echo "FIREBASE_API_KEY=dummy_key" >> .env
+
         - name: Build with Gradle
           run: gradle assembleDebug
 
