@@ -15,14 +15,9 @@ jobs:
               distribution: 'temurin'
               java-version: '17'
 
-        - name: Find and Build APK
+        - name: Build Debug APK
           run: |
-              # gradlew erukra path-ah thedi andha folder-ku pogum
-              GRADLEW_PATH=$(find . -name "gradlew" -type f -print -quit)
-              DIR=$(dirname "$GRADLEW_PATH")
-              echo "Found gradlew in: $DIR"
-              cd "$DIR"
-              
+              cd sk-edz-player-app
               chmod +x gradlew
               ./gradlew assembleDebug
 
@@ -30,4 +25,4 @@ jobs:
           uses: actions/upload-artifact@v4
           with:
               name: app-debug
-              path: '**/build/outputs/apk/debug/app-debug.apk'
+              path: sk-edz-player-app/app/build/outputs/apk/debug/app-debug.apk
