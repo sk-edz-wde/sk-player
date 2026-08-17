@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "799073385490",
+    "firebase_url": "https://skedz-p-default-rtdb.firebaseio.com",
+    "project_id": "skedz-p",
+    "storage_bucket": "skedz-p.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799073385490:android:2da7fe94047ef409656ccb",
+        "android_client_info": {
+          "package_name": "com.skedz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799073385490-fc95oito6p9kg6jqdeclhjg9mfvd4k1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO9QTj307Bo8DI5NB_lzMRBW1ViI6kBHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799073385490-fc95oito6p9kg6jqdeclhjg9mfvd4k1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

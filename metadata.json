@@ -1,0 +1,6 @@
+{
+  "name": "SK Edz Player",
+  "description": "Native Cyberpunk Mobile Music Streaming & Player App featuring high-fidelity audio playback, 5-band DSP equalizer, offline local music scanner, smart playlists, and VIP Pro engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
